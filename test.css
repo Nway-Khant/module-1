@@ -1,0 +1,97 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    background: hwb(0 64% 8%);
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+body{
+    background-color: hsla(34, 89%, 32%, 0.699);
+}
+
+.logo {
+    color: #fff;
+}
+
+nav{
+    text-align: right;
+}
+
+.nav-item{
+    color: hsl(215, 32%, 93%);
+    text-decoration: none;
+    padding: 4px 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input{
+    border: solid rgb(18, 241, 14);
+    border-radius: 20px;
+    color: yellowgreen;
+}
+
+
+.form-input {
+
+    margin-bottom: 20px;
+    color: hwb(248 94% 3%);
+    font-size: x-large;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+    color: hwb(240 96% 2%);
+    font-size: x-large  ;
+}
+
+.btn {
+    padding: 8px 24px;
+    border: none;
+    background-color: hsl(313, 92%, 48%);
+    color: white;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+}
+
+
+footer {
+    background-color: aqua;
+}
+
+h2{
+    text-align: center;
+    padding: 16px;
+}
+footer p{
+    line-height: 1.5em;
+
+}
